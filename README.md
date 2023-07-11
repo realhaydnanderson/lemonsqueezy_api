@@ -1,7 +1,7 @@
-#🍋 Lemon Squeezy API Wrapper
+# 🍋 Lemon Squeezy API Wrapper
 Python Integration of the Lemon Squeezy API wrapper.
 
-##🧩 Modules
+## 🧩 Modules
 Here's a brief overview of the modules in Lemon Squeezy:
 
 customer.py: Module for customer-related operations.
@@ -11,7 +11,7 @@ checkout.py: Module for checkout operations.
 order.py: Module for order management.
 subscription.py: Module for managing subscriptions.
 
-##🛠 Usage
+## 🛠 Usage
 Here's a simple example to get you started:
 
 python
@@ -22,5 +22,5 @@ ls = LemonSqueezy("https://api.lemonsqueezy.com", <API_KEY>)
 products = ls.product.get_all_products()
 Remember to replace <API_KEY> with your actual API key.
 
-##👥 Contribution
+## 👥 Contribution
 We love contributions! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request!
